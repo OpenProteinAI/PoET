@@ -1,0 +1,6 @@
+https://github.com/Dao-AILab/flash-attention/releases/download/v2.1.1/flash_attn-2.1.1+cu118torch2.0cxx11abiFALSE-cp39-cp39-linux_x86_64.whl
+jsonargparse[signatures]==4.23.1
+deepspeed==0.10.1
+fair-esm==2.0.0
+peft==0.5.0
+-e .

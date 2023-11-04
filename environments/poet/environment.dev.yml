@@ -1,0 +1,6 @@
+channels:
+  - conda-forge
+dependencies:
+  - pytest
+  - ipywidgets
+  - pre-commit
