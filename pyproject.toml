@@ -15,7 +15,7 @@ dynamic = ["version"]
 dependencies=[]
 
 [tool.setuptools]
-packages = ["protembed"]
+packages = ["poet"]
 
 [project.urls]
 "Homepage" = "https://github.com/OpenProteinAI/PoET"
@@ -23,4 +23,4 @@ packages = ["protembed"]
 
 # configure pulling version info from git
 [tool.setuptools_scm]
-write_to = "protembed/_version.py"
+write_to = "poet/_version.py"
