@@ -5,8 +5,8 @@ from typing import Optional, Tuple
 import torch
 import torch.nn as nn
 
-from protembed.models.modules.attention import MultiheadAttention, mha_attn
-from protembed.models.modules.packed_sequence import PackedTensorSequences
+from poet.models.modules.attention import MultiheadAttention, mha_attn
+from poet.models.modules.packed_sequence import PackedTensorSequences
 
 # import flash attention module components and flag whether they are available
 try:

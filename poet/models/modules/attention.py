@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch import Tensor
 
-from protembed.models.modules.packed_sequence import PackedTensorSequences
+from poet.models.modules.packed_sequence import PackedTensorSequences
 
 
 def mha_attn_weights(

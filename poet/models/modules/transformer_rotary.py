@@ -1,5 +1,5 @@
-from protembed.models.modules import FlashMultiheadAttention, RotaryEmbedding
-from protembed.models.modules.transformer import (
+from poet.models.modules import FlashMultiheadAttention, RotaryEmbedding
+from poet.models.modules.transformer import (
     TieredTransformerDecoderLayer,
     TieredTransformerEncoderLayer,
     TransformerDecoderLayer,

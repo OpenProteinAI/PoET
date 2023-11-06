@@ -6,20 +6,18 @@ import torch.nn as nn
 import torch.nn.functional as F
 from tqdm import tqdm
 
-from protembed.alphabets import Uniprot21
-from protembed.models.modules.activation import gelu
-from protembed.models.modules.attention import MultiheadAttention
-from protembed.models.modules.embedding import RotaryEmbedding
-from protembed.models.modules.packed_sequence import (
+from poet.alphabets import Uniprot21
+from poet.models.modules.activation import gelu
+from poet.models.modules.attention import MultiheadAttention
+from poet.models.modules.embedding import RotaryEmbedding
+from poet.models.modules.packed_sequence import (
     PackedTensorSequences,
     get_mask,
     pad_input,
     unpad_input,
 )
-from protembed.models.modules.transformer import TransformerEncoder
-from protembed.models.modules.transformer_rotary import (
-    TieredRotaryTransformerEncoderLayer,
-)
+from poet.models.modules.transformer import TransformerEncoder
+from poet.models.modules.transformer_rotary import TieredRotaryTransformerEncoderLayer
 
 
 def top_k_top_p_filtering(

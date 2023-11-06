@@ -9,7 +9,7 @@ import numpy as np
 import torch
 from pydantic import BaseModel, Field
 
-from protembed.utils import hash_of_string_list
+from poet.utils import hash_of_string_list
 
 
 def compute_hamming_csim_np(

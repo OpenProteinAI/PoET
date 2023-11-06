@@ -6,10 +6,10 @@ import torch.nn as nn
 import torch.utils.checkpoint as checkpoint
 from torch import Tensor
 
-from protembed.models.modules.activation import gelu
-from protembed.models.modules.attention import MultiheadAttention
-from protembed.models.modules.attention_flash import FlashMultiheadAttention
-from protembed.models.modules.packed_sequence import PackedTensorSequences
+from poet.models.modules.activation import gelu
+from poet.models.modules.attention import MultiheadAttention
+from poet.models.modules.attention_flash import FlashMultiheadAttention
+from poet.models.modules.packed_sequence import PackedTensorSequences
 
 T = TypeVar("T", Tensor, PackedTensorSequences)
 

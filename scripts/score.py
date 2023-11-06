@@ -11,11 +11,11 @@ import torch.nn.functional as F
 from torch.nn.utils.rnn import pad_sequence
 from tqdm import tqdm, trange
 
-from protembed.alphabets import Uniprot21
-from protembed.fasta import parse_stream
-from protembed.models.modules.packed_sequence import PackedTensorSequences
-from protembed.models.poet import PoET
-from protembed.msa.sampling import MSASampler, NeighborsSampler
+from poet.alphabets import Uniprot21
+from poet.fasta import parse_stream
+from poet.models.modules.packed_sequence import PackedTensorSequences
+from poet.models.poet import PoET
+from poet.msa.sampling import MSASampler, NeighborsSampler
 
 ASCII_LOWERCASE_BYTES = string.ascii_lowercase.encode()
 PBAR_POSITION = 1
