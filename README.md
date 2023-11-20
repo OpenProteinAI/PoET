@@ -4,8 +4,8 @@ This repo contains inference code for ["PoET: A generative model of protein fami
 
 ## Environment Setup
 
-1. Have `mamba` (faster alternative to `conda`) installed
-1. Have `conda-lock` installed in your base conda/mamba environment
+1. Have `mamba` (faster alternative to `conda`) installed ([Instructions](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html))
+1. Have `conda-lock` installed in your base conda/mamba environment ([Instructions](https://github.com/conda/conda-lock#installation))
 1. Run `make create_conda_env`. This will create a conda environment named `poet`.
 1. Run `make download_model` to download the model (~400MB). The model will be located at `data/poet.ckpt`. Please note the [license](#License).
 
